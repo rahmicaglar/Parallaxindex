@@ -1,0 +1,99 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/* Navbar stili */
+
+.navbar {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 30px;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #007bff;
+}
+
+
+/* Parallax bölümleri */
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+#section1 {
+    background-image: url('');
+}
+
+#section2 {
+    background-image: url('images/parallax2.jpg');
+}
+
+#section3 {
+    background-image: url('images/parallax3.jpg');
+}
+
+.parallax-text {
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(177, 71, 71, 0.7);
+}
+
+
+/* İçerik bölümleri */
+
+.content {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
